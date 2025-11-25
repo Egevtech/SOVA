@@ -13,3 +13,6 @@ pre: temp
 link:
 	${cc} temp/main.o -o sova
 
+run: build
+	clear
+	@ ./sova
